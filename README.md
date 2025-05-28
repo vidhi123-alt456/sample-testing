@@ -1,5 +1,5 @@
 # Tatvasoft 
-# SQL Practice – Customers & Orders Edition
+# Summer_Internship – 2025
 
 ## Day 1: Introduction to PostgreSQL
 - Learned SQL basics and set up PostgreSQL database with schema.
