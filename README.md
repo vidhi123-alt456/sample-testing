@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # TatvaSoft
 # Summer Internship Training – 2025
 
@@ -71,3 +72,17 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
 >>>>>>> d3350c3 (Initial Angular 18 project commit)
+=======
+# Tatvasoft 
+# Summer_Internship – 2025
+
+## Day 1: Introduction to PostgreSQL
+- Learned SQL basics and set up PostgreSQL database with schema.
+- Performed CRUD operations (Create, Insert, Update, Delete) and subqueries.
+- Hands-on practice with tables `customer` and `orders`.
+
+## Day 2: Introduction to Angular
+- Explored Angular framework and built a basic app.
+- Created a login page with forms and components.
+- Hands-on experience with Angular CLI and component creation.
+>>>>>>> 552fc6bb05cb6545e4572aec8fbeae95ac41df12

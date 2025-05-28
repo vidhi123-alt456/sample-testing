@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
 
 # Compiled output
@@ -40,3 +41,11 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+=======
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.vsidx
+>>>>>>> 552fc6bb05cb6545e4572aec8fbeae95ac41df12
