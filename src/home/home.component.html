@@ -1,0 +1,40 @@
+
+<header class="bg-primary text-white py-3 mb-4">
+  <div class="container text-center">
+    <h1 class="display-6">Faculty Portal</h1>
+    <p class="lead">Empowering educators with seamless academic tools</p>
+  </div>
+</header>
+
+
+<section class="bg-light text-center py-5">
+  <div class="container">
+    <h1 class="display-4 fw-bold text-primary">Welcome to the Faculty Portal</h1>
+    <p class="lead text-secondary">
+      Manage your academic profile, connect with peers, and access resources seamlessly.
+    </p>
+  </div>
+</section>
+
+
+<section class="container my-5">
+  <div class="row g-4">
+    <div class="col-md-3" *ngFor="let feature of features">
+      <div class="card h-100 shadow-sm border-0 text-center">
+        <div class="card-body">
+          <h5 class="card-title">{{ feature.title }}</h5>
+          <p class="card-text">{{ feature.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="bg-dark text-white py-4 mt-5">
+  <div class="container text-center">
+    <p class="mb-0">© 2025 Faculty Portal. All rights reserved.</p>
+    <small>Contact: {{ contactEmail }}</small>
+
+  </div>
+</footer>
