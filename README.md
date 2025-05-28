@@ -1,4 +1,5 @@
-# Tatvasoft SQL Practice – Customers & Orders Edition
+# Tatvasoft 
+# SQL Practice – Customers & Orders Edition
 
 ## Day 1: Introduction to PostgreSQL
 - Learned SQL basics and set up PostgreSQL database with schema.
