@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # TatvaSoft
 # Summer Internship Training – 2025
 
@@ -151,3 +152,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 =======
 # sample-testing
 >>>>>>> 3afb607b74103c29b8074b0f89c46ecafd21ce86
+=======
+# TatvaSoft
+# Summer Internship Training – 2025
+
+(local content...)
+
+(remote content...)
+>>>>>>> 17eb6bb52be83183a76eca88cdae7bfbc1f9e95b
