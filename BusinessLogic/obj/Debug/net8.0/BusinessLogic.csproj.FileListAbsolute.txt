@@ -1,0 +1,48 @@
+C:\Users\Admin\My final project\login-app\BusinessLogic\bin\Debug\net8.0\BusinessLogic.deps.json
+C:\Users\Admin\My final project\login-app\BusinessLogic\bin\Debug\net8.0\BusinessLogic.dll
+C:\Users\Admin\My final project\login-app\BusinessLogic\bin\Debug\net8.0\BusinessLogic.pdb
+C:\Users\Admin\My final project\login-app\BusinessLogic\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\Admin\My final project\login-app\BusinessLogic\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\Admin\My final project\login-app\BusinessLogic\obj\Debug\net8.0\BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\Admin\My final project\login-app\BusinessLogic\obj\Debug\net8.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\My final project\login-app\BusinessLogic\obj\Debug\net8.0\BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\Admin\My final project\login-app\BusinessLogic\obj\Debug\net8.0\BusinessLogic.AssemblyInfo.cs
+C:\Users\Admin\My final project\login-app\BusinessLogic\obj\Debug\net8.0\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\Admin\My final project\login-app\BusinessLogic\obj\Debug\net8.0\BusinessLogic.sourcelink.json
+C:\Users\Admin\My final project\login-app\BusinessLogic\obj\Debug\net8.0\Business.CF5D6E35.Up2Date
+C:\Users\Admin\My final project\login-app\BusinessLogic\obj\Debug\net8.0\BusinessLogic.dll
+C:\Users\Admin\My final project\login-app\BusinessLogic\obj\Debug\net8.0\refint\BusinessLogic.dll
+C:\Users\Admin\My final project\login-app\BusinessLogic\obj\Debug\net8.0\BusinessLogic.pdb
+C:\Users\Admin\My final project\login-app\BusinessLogic\obj\Debug\net8.0\ref\BusinessLogic.dll
+C:\Users\Admin\My final project\Book_Management_Internship\BusinessLogic\bin\Debug\net8.0\BusinessLogic.deps.json
+C:\Users\Admin\My final project\Book_Management_Internship\BusinessLogic\bin\Debug\net8.0\BusinessLogic.dll
+C:\Users\Admin\My final project\Book_Management_Internship\BusinessLogic\bin\Debug\net8.0\BusinessLogic.pdb
+C:\Users\Admin\My final project\Book_Management_Internship\BusinessLogic\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\Admin\My final project\Book_Management_Internship\BusinessLogic\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\Admin\My final project\Book_Management_Internship\BusinessLogic\obj\Debug\net8.0\BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\Admin\My final project\Book_Management_Internship\BusinessLogic\obj\Debug\net8.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\My final project\Book_Management_Internship\BusinessLogic\obj\Debug\net8.0\BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\Admin\My final project\Book_Management_Internship\BusinessLogic\obj\Debug\net8.0\BusinessLogic.AssemblyInfo.cs
+C:\Users\Admin\My final project\Book_Management_Internship\BusinessLogic\obj\Debug\net8.0\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\Admin\My final project\Book_Management_Internship\BusinessLogic\obj\Debug\net8.0\BusinessLogic.sourcelink.json
+C:\Users\Admin\My final project\Book_Management_Internship\BusinessLogic\obj\Debug\net8.0\Business.CF5D6E35.Up2Date
+C:\Users\Admin\My final project\Book_Management_Internship\BusinessLogic\obj\Debug\net8.0\BusinessLogic.dll
+C:\Users\Admin\My final project\Book_Management_Internship\BusinessLogic\obj\Debug\net8.0\refint\BusinessLogic.dll
+C:\Users\Admin\My final project\Book_Management_Internship\BusinessLogic\obj\Debug\net8.0\BusinessLogic.pdb
+C:\Users\Admin\My final project\Book_Management_Internship\BusinessLogic\obj\Debug\net8.0\ref\BusinessLogic.dll
+C:\Users\Admin\Project_Book_Internship\Book_Management_Internship\BusinessLogic\bin\Debug\net8.0\BusinessLogic.deps.json
+C:\Users\Admin\Project_Book_Internship\Book_Management_Internship\BusinessLogic\bin\Debug\net8.0\BusinessLogic.dll
+C:\Users\Admin\Project_Book_Internship\Book_Management_Internship\BusinessLogic\bin\Debug\net8.0\BusinessLogic.pdb
+C:\Users\Admin\Project_Book_Internship\Book_Management_Internship\BusinessLogic\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\Admin\Project_Book_Internship\Book_Management_Internship\BusinessLogic\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\Admin\Project_Book_Internship\Book_Management_Internship\BusinessLogic\obj\Debug\net8.0\BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\Admin\Project_Book_Internship\Book_Management_Internship\BusinessLogic\obj\Debug\net8.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Project_Book_Internship\Book_Management_Internship\BusinessLogic\obj\Debug\net8.0\BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\Admin\Project_Book_Internship\Book_Management_Internship\BusinessLogic\obj\Debug\net8.0\BusinessLogic.AssemblyInfo.cs
+C:\Users\Admin\Project_Book_Internship\Book_Management_Internship\BusinessLogic\obj\Debug\net8.0\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Project_Book_Internship\Book_Management_Internship\BusinessLogic\obj\Debug\net8.0\BusinessLogic.sourcelink.json
+C:\Users\Admin\Project_Book_Internship\Book_Management_Internship\BusinessLogic\obj\Debug\net8.0\Business.CF5D6E35.Up2Date
+C:\Users\Admin\Project_Book_Internship\Book_Management_Internship\BusinessLogic\obj\Debug\net8.0\BusinessLogic.dll
+C:\Users\Admin\Project_Book_Internship\Book_Management_Internship\BusinessLogic\obj\Debug\net8.0\refint\BusinessLogic.dll
+C:\Users\Admin\Project_Book_Internship\Book_Management_Internship\BusinessLogic\obj\Debug\net8.0\BusinessLogic.pdb
+C:\Users\Admin\Project_Book_Internship\Book_Management_Internship\BusinessLogic\obj\Debug\net8.0\ref\BusinessLogic.dll
