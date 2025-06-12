@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # TatvaSoft
 # Summer Internship Training – 2025
 
@@ -147,3 +148,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - Introduction to AWS services and cloud deployment basics.
 - Learned hands-on cloud deployment techniques.
 >>>>>>> 3e11ab3474adb2e40ef47287cf2c181a8d454345
+=======
+# sample-testing
+>>>>>>> 3afb607b74103c29b8074b0f89c46ecafd21ce86
