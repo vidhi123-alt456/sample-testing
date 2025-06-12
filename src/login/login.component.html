@@ -1,59 +1,107 @@
 <div class="container mt-5">
   <div class="row justify-content-center">
-    <div class="col-md-6">
+    <div class="col-md-6 col-lg-5">
       <div class="card shadow-lg">
-        <div class="card-body">
+        <div class="card-body p-4">
           <h2 class="text-center mb-4">Login</h2>
-          <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
-            <div class="form-group mb-3">
-              <label>Username or Email</label>
+
+          <!-- Error Message Display -->
+          <div *ngIf="errorMessage" class="alert alert-danger alert-dismissible fade show">
+            {{ errorMessage }}
+            <button type="button" class="btn-close" (click)="errorMessage = null"></button>
+          </div>
+
+          <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" novalidate>
+            <!-- Username/Email Field -->
+            <div class="mb-3">
+              <label class="form-label">Email</label>
               <input
-                type="text"
-                class="form-control"
+                type="email"
+                class="form-control form-control-lg"
+                [ngClass]="{
+                  'is-invalid': submitted && f['usernameOrEmail'].errors
+                }"
                 formControlName="usernameOrEmail"
-                placeholder="Enter your username or email"
+                placeholder="Enter your email"
               />
-              <div *ngIf="submitted && loginForm.get('usernameOrEmail')?.errors" class="text-danger mt-1">
-                <div *ngIf="loginForm.get('usernameOrEmail')?.errors?.['required']">Username or Email is required</div>
-                <div *ngIf="loginForm.get('usernameOrEmail')?.errors?.['email']">Email is invalid</div>
+              <div *ngIf="submitted && f['usernameOrEmail'].errors" class="invalid-feedback">
+                <div *ngIf="f['usernameOrEmail'].errors?.['required']">Email is required</div>
+                <div *ngIf="f['usernameOrEmail'].errors?.['email']">Please enter a valid email address</div>
               </div>
             </div>
 
-            <div class="form-group mb-3">
-              <label>Password</label>
-              <input
-                type="password"
-                class="form-control"
-                formControlName="password"
-                placeholder="Enter your Password"
-              />
-              <div *ngIf="submitted && loginForm.get('password')?.errors" class="text-danger mt-1">
-                <div *ngIf="loginForm.get('password')?.errors?.['required']">Password is required</div>
-                <div *ngIf="loginForm.get('password')?.errors?.['pattern']">
-                  Password must start with a letter, have 3 lowercase letters, and 1 special character
+            <!-- Password Field -->
+            <div class="mb-3">
+              <label class="form-label">Password</label>
+              <div class="input-group">
+                <input
+                  [type]="showPassword ? 'text' : 'password'"
+                  class="form-control form-control-lg"
+                  [ngClass]="{
+                    'is-invalid': submitted && f['password'].errors
+                  }"
+                  formControlName="password"
+                  placeholder="Enter your password"
+                />
+                <button class="btn btn-outline-secondary" type="button" (click)="showPassword = !showPassword">
+                  <i class="bi" [ngClass]="showPassword ? 'bi-eye-slash' : 'bi-eye'"></i>
+                </button>
+              </div>
+              <div *ngIf="submitted && f['password'].errors" class="invalid-feedback">
+                <div *ngIf="f['password'].errors?.['required']">Password is required</div>
+                <div *ngIf="f['password'].errors?.['minlength']">Minimum 8 characters required</div>
+                <div *ngIf="f['password'].errors?.['pattern']">
+                  Must contain: uppercase, lowercase, number, and special character
                 </div>
               </div>
             </div>
 
-            <div class="d-flex justify-content-between align-items-center mb-3">
+            <!-- Remember Me & Forgot Password -->
+            <div class="d-flex justify-content-between align-items-center mb-4">
               <div class="form-check">
                 <input
                   type="checkbox"
                   class="form-check-input"
-                  formControlName="rememberMe"
                   id="rememberMe"
+                  formControlName="rememberMe"
                 />
                 <label class="form-check-label" for="rememberMe">Remember me</label>
               </div>
-              <a href="#" class="text-primary">Forgot password?</a>
+              <a routerLink="/forgot-password" class="text-decoration-none">Forgot password?</a>
             </div>
 
+            <!-- Submit Button -->
             <div class="d-grid mb-3">
-              <button type="submit" class="btn btn-primary">Login</button>
+              <button
+                type="submit"
+                class="btn btn-primary btn-lg"
+                [disabled]="isLoading"
+              >
+                <span *ngIf="!isLoading">Login</span>
+                <span *ngIf="isLoading">
+                  <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                  Logging in...
+                </span>
+              </button>
             </div>
 
-            <div class="text-center mb-3">
-              Don't have an account? <a href="#" class="text-primary">Sign up</a>
+            <!-- Divider -->
+            <div class="position-relative text-center mb-4">
+              <hr class="border-2">
+              <span class="position-absolute bg-white px-3" style="top: -12px;">OR</span>
+            </div>
+
+            <!-- Social Login -->
+            <div class="d-grid gap-2 mb-4">
+              <button type="button" class="btn btn-outline-primary">
+                <i class="bi bi-google me-2"></i> Continue with Google
+              </button>
+            </div>
+
+            <!-- Sign Up Link -->
+            <div class="text-center">
+              Don't have an account?
+              <a routerLink="/register" class="text-decoration-none">Sign up</a>
             </div>
           </form>
         </div>

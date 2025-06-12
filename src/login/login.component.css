@@ -21,3 +21,19 @@
 .text-center.mb-3 {
   margin-bottom: 1rem !important;
 }
+/* Add to your login.component.css */
+.password-toggle {
+  cursor: pointer;
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-left: none;
+}
+
+.password-toggle:hover {
+  background-color: #e9ecef;
+}
+
+/* For the OR divider */
+.position-relative hr {
+  margin: 1.5rem 0;
+}
